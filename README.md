@@ -12,7 +12,7 @@ http://127.0.0.1:8000/docs
 Send post request to http://127.0.0.1:8000/checkDP with json paylod: 
 
 e.g. 
-`code`
+```json
 [
 	{
 		"mac": "66:77:88:99:00",
@@ -29,7 +29,9 @@ e.g.
 		"function": "IP phone"
 	}
 ]
-`code`
+
+``` 
+
 The output will be all asset with default password 
 
 ![image](https://user-images.githubusercontent.com/36591853/218095103-3714613c-bfa8-4056-b584-e877fe38163e.png)
