@@ -1,17 +1,18 @@
 # DPcheck
 Default password checker 
 
-# Docker usage
-docker build -t dpcheck .
-docker run -d --name dpcheck-cont -p 8000:80 dpcheck
+## Docker usage
+docker build -t dpcheck . 
+docker run -d --name dpcheck-cont -p 8000:80 dpcheck 
 
-# OpenAPI url
-http://127.0.0.1:8000/docs
+## OpenAPI url
+http://127.0.0.1:8000/docs 
 
-# How to use
-Send post request to http://127.0.0.1:8000/checkDP with json paylod:
+## How to use
+Send post request to http://127.0.0.1:8000/checkDP with json paylod: 
 
-e.g.
+e.g. 
+`code`
 [
 	{
 		"mac": "66:77:88:99:00",
@@ -28,8 +29,8 @@ e.g.
 		"function": "IP phone"
 	}
 ]
-
-The output will be all asset with default password
+`code`
+The output will be all asset with default password 
 
 ![image](https://user-images.githubusercontent.com/36591853/218095103-3714613c-bfa8-4056-b584-e877fe38163e.png)
 
