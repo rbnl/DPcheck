@@ -1,14 +1,14 @@
 # DPcheck
 Default password checker 
 
-#Docker usage
+# Docker usage
 docker build -t dpcheck .
 docker run -d --name dpcheck-cont -p 8000:80 dpcheck
 
-#OpenAPI url
+# OpenAPI url
 http://127.0.0.1:8000/docs
 
-#How to use
+# How to use
 Send post request to http://127.0.0.1:8000/checkDP with json paylod:
 
 e.g.
