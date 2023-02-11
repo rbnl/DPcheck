@@ -2,8 +2,10 @@
 Default password checker 
 
 ## Docker usage
+```
 docker build -t dpcheck . 
 docker run -d --name dpcheck-cont -p 8000:80 dpcheck 
+```
 
 ## OpenAPI url
 http://127.0.0.1:8000/docs 
